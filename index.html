@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Christmas Countdown</title>
+   <link rel="icon" href="Assests/favicon.png" type="image/icon">
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="header">
+         <div class="nav">
+            <a href="#" class="navlogo" id="navlogo">
+               <span>Merry</span>
+               <span>Christmas</span>
+            </a>
+            <div class="links" id="list">
+               <a href="#hero" class="nav-link">HOME</a>
+               <a href="#events" class="nav-link">EVENTS</a>
+               <a href="#latest" class="nav-link">LATEST</a>
+               <a href="#contacts" class="nav-link">CONTACT</a>
+            </div>
+            <div class="toggle" id="toggle">
+               <i class="ri-eye-close-line" id="close" title="close the list"></i>
+               <i class="ri-eye-line" id="open" title="open the list"></i>
+            </div>
+
+         </div>
+      </div><!--header-->
+      <div class="hero" id="hero">
+         <div class="image-container">
+            <img src="/Assests/hero.png" alt="hero-img" srcset="">
+         </div>
+         <div class="content-container">
+            <h1>2024</h1>
+            <h1 id="your">Your </h1>
+            <h1>Christmas</h1>
+            <div class="countdown">
+               <div class="box">
+                  <span class="num" id="days">00</span>
+                  <span class="text">DAYS</span>
+               </div>
+               <div class="box">
+                  <span class="num" id="hours">00</span>
+                  <span class="text">HOURS</span>
+               </div>
+               <div class="box">
+                  <span class="num" id="minutes">00</span>
+                  <span class="text">MINUTES</span>
+               </div>
+               <div class="box">
+                  <span class="num" id="seconds">00</span>
+                  <span class="text">SECONDS</span>
+               </div>
+            </div>
+         </div>
+      </div><!--hero-->
+      <div class="events" id="events">
+         <div class="input-names">
+            <div class="name-text">
+               <label for="myText">Enter Your Name </label>
+               <input type="text" id="myText" name="myText" class="myText">
+               <button type="button" class="button" onclick="getMsg()">Go</button>
+            </div>
+            <div class="name-img">
+               <img src="/Assests/banner.svg" alt="" srcset="">
+            </div>
+         </div>
+      </div><!--events-->
+      
+      <div class="latest" id="latest">
+         <div class="latest-img">
+            <img src="/Assests/latest-news.webp" alt="" srcset="">
+         </div>         
+         <div class="latest-container">
+            <div class="news">
+               <a href="https://www.dogonews.com/2023/12/18/christmas-celebrations-from-around-the-world" target="_blank"><img src="/Assests/news1.PNG" alt="" srcset=""></a>
+               <p>Christmas Celebrations From Around The World</p>
+            </div>
+            <div class="news">
+               <a href="https://www.dogonews.com/2023/12/15/rare-babe-ruth-rookie-card-sells-for-7-dollars-2-cents-million" target="_blank"><img src="/Assests/news2.PNG" alt="" srcset=""></a>
+               <p>Rare Babe Ruth Rookie Card Sells For $7.2 Million!</p>
+            </div>
+            <div class="news">
+               <a href="https://www.dogonews.com/2023/12/14/jonathan-the-worlds-oldest-living-land-animal-celebrates-191st-birthday" target="_blank"><img src="/Assests/news3.PNG" alt="" srcset=""></a>
+               <p>Jonathan, The World's Oldest Living Land Animal, Celebrates 191st Birthday!</p>
+            </div>
+         </div>
+      </div><!--latest-->
+
+      <div class="contacts" id="contacts">
+         <img src="/Assests/Asset 1.png" alt="" srcset="">
+         <div class="social-media">
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+         </div>
+      </div>
+
+      
+
+   </div><!--wrapper-->
+   <script src="https://app.embed.im/snow.js" defer></script>
+   <script src="script.js"></script>
+</body>
+
+</html>
+
