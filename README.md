@@ -1,1 +1,1 @@
-This is small site using HTML CSS And JS.Basically I want to inmprove my JS knowledge.Thats why I make this site
+Christmas Time Countdown: A Small Site Crafted with HTML, CSS, and JS to Enhance My JavaScript Skills. 
